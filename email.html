@@ -8,25 +8,11 @@ http-equiv="content-type">
 <body>
     
 
-<form action="envia_fale.php" method="post" name="form">
 
-Entre em contato conosco!<br>
-<br>
-<br>
-Seu nome:<br>
-<input name="nome"><br>
-<br>
-Seu e-mail:<br>
-<input name="email"><br>
-<br>
-Assunto:<br>
-<input name="assunto"><br>
-<br>
-Mensagem:<br>
-<input name="mensagem"><br>
-<br><br>
-<input type="submit" name="submit" value="Enviar"><br>
-</form>
+    <form action="javascript:sendMail();" name="pmForm" id="pmForm" method="post">
+        Digite aqui o seu email:
+        <input name="pmSubject" id="pmSubject" type="text" maxlength="64" style="width:98%;" />
+        <input name="pmSubmit" type="submit" value="Enviar" />
 <br>
 <br>
 <br>
